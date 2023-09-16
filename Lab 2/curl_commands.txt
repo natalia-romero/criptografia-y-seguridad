@@ -1,0 +1,31 @@
+curl 'http://localhost/vulnerabilities/brute/?username=admin&password=11&Login=Login' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: es-ES,es;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: PHPSESSID=qlfc58r5g2r14bnl6ltbed3pl0; security=low' \
+  -H 'Referer: http://localhost/vulnerabilities/brute/?username=admin&password=password&Login=Login' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  --compressed
+  
+  
+curl 'http://localhost/vulnerabilities/brute/?username=smithy&password=password&Login=Login#' 
+--compressed 
+-H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0' 
+-H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' 
+-H 'Accept-Language: en-US,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' 
+-H 'Connection: keep-alive' 
+-H 'Referer: http://localhost/vulnerabilities/brute/?username=admin&password=123&Login=Login' 
+-H 'Cookie: PHPSESSID=keb9voo51jinc1lj5r9sim5ju7; security=low' 
+-H 'Upgrade-Insecure-Requests: 1' 
+-H 'Sec-Fetch-Dest: document' 
+-H 'Sec-Fetch-Mode: navigate' 
+-H 'Sec-Fetch-Site: same-origin' 
+-H 'Sec-Fetch-User: ?1'
